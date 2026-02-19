@@ -1,36 +1,39 @@
-# QA API Testing: Urban Grocers - Validación de Servicios de Entrega y Kits
+# QA API Testing: Urban Grocers - Delivery Services and Kits Validation
 
-## 📌 Descripción del Proyecto
-Este proyecto consistió en el análisis y validación técnica de la API de **Urban Grocers** tras la implementación de nuevas actualizaciones en la plataforma respecto al manejo de kits y servicios de entrega. El objetivo principal fue garantizar que la API admita correctamente los nuevos requisitos de negocio sin comprometer la integridad de los datos existentes.
+## Project Description
+This project involved the technical analysis and validation of the Urban Grocers API following the implementation of platform updates regarding kit management and delivery services. The objective was to ensure the API supports new business requirements without compromising existing data integrity.
 
-## 🛠️ Tecnologías y Herramientas
-* **Postman:** Ejecución de pruebas, validación de endpoints e interacciones solicitud-respuesta.
-* **Jira:** Gestión de defectos y documentación de informes de errores detallados.
-* **Swagger / ApiDoc:** Análisis y consulta de la documentación técnica de la API para el diseño de casos de prueba.
+## Technologies and Tools
+* **Postman:** Test execution, endpoint validation, and request-response analysis.
+* **Jira:** Defect management and documentation of detailed bug reports.
+* **Swagger / ApiDoc:** Technical documentation analysis for test case design.
 
-## 🚀 Logros Técnicos y Habilidades Aplicadas
-Basado en la evaluación y aprobación del proyecto:
+## Technical Achievements and Applied Skills
+* **API Analysis:** Verified data exchange protocols and validated data accuracy across 4 specific endpoints.
+* **Test Design:** Implemented equivalence partitioning, boundary value analysis, and executed positive and negative testing.
+* **Defect Management:** Documented bug reports in Jira including method, URL, description, and detailed request/response bodies.
+* **Test Documentation:** Structured professional checklists ensuring coverage of multiple API behavior scenarios.
 
-* **Análisis Profundo de API:** Verificación de protocolos de intercambio de datos y validación de la exactitud de los datos en 4 endpoints específicos.
-* **Estrategias de Diseño de Pruebas:** Implementación exitosa de técnicas de **clases de equivalencia**, **análisis de valores límite**, y ejecución de pruebas tanto **negativas como positivas**.
-* **Gestión de Defectos de Alta Calidad:** Documentación de informes de errores con títulos claros (incluyendo método, URL y descripción) y cuerpos de solicitud/respuesta detallados en Jira.
-* **Atención al Detalle:** Estructuración de listas de comprobación claras y profesionales, garantizando que los escenarios de prueba cubrieran una amplia gama de comportamientos de la API.
+## Test Suite Summary
 
-## 📋 Resumen de Pruebas Realizadas
-| Método | Endpoint | Objetivo de la Prueba | Resultado |
+| Method | Endpoint | Test Objective | Result |
 | :--- | :--- | :--- | :--- |
-| GET | `/api/v1/kits` | Validar la recuperación correcta de kits actualizados. | Pasado |
-| POST | `/api/v1/orders` | Verificar la creación de órdenes con servicios de entrega específicos. | Pasado |
-| PUT | `/api/v1/kits/:id` | Probar la modificación de kits bajo nuevos requisitos. | Pasado |
-| DELETE | `/api/v1/orders/:id` | Asegurar la eliminación correcta de servicios según la lógica de negocio. | Pasado |
+| GET | /api/v1/kits | Validate retrieval of updated kits. | Passed |
+| POST | /api/v1/orders | Verify order creation with delivery services. | Passed |
+| PUT | /api/v1/kits/:id | Test kit modification under new requirements. | Passed |
+| DELETE | /api/v1/orders/:id | Ensure deletion of services based on business logic. | Passed |
 
-## 📸 Evidencias
+## Evidence
+![Postman Tests]<img width="1144" height="826" alt="image" src="https://github.com/user-attachments/assets/baf78d9a-f818-4800-a099-4b0325492219" />
+<img width="1152" height="864" alt="image" src="https://github.com/user-attachments/assets/0cb8b613-6e47-4496-ac6d-ae60caab6fd6" />
+<img width="1152" height="864" alt="image" src="https://github.com/user-attachments/assets/80448328-93a7-4e0c-98fd-d752f9edf5a4" />
 
-]<img width="1144" height="826" alt="Captura de pantalla 2026-02-05 111717" src="https://github.com/user-attachments/assets/61b87482-989f-4fad-bbee-ada15e349009" />
 
-![Tests de Postman]<img width="1152" height="864" alt="Captura de pantalla 2026-02-05 112927" src="https://github.com/user-attachments/assets/d96f32d4-2dd2-4410-ac67-075fe4ce777e" /> 
-<img width="1152" height="864" alt="Captura de pantalla 2026-02-05 113113" src="https://github.com/user-attachments/assets/85e890ba-89c3-4756-a3d8-2e857f8d9887" />
+
+
 
 
 ---
-**Proyecto realizado como parte del Bootcamp QA Engineer en TripleTen.**
+*Project completed as part of the QA Engineer Bootcamp at TripleTen.*
+
+**Contact:** [reynierwork26@gmail.com](mailto:reynierwork26@gmail.com)
